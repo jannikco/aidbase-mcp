@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "f4ecb4e866251c4a3bd5821133b0d578a2a3a6c50b4ce3876ba6fc33be2c0854",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://docs.aidbase.ai/apis/introduction/"
+  ],
+  "id": "aidbase-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Aidbase MCP setup and connection checker",
+  "description": "Generate Aidbase MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "aidbase",
+  "appName": "Aidbase",
+  "providerDocs": "https://docs.aidbase.ai/apis/introduction/",
+  "providerWebsite": "https://www.aidbase.ai/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.aidbase.ai/apis/get-started/",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-aidbase-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}

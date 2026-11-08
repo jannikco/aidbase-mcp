@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-aidbase",
+      "description": "Connect AI agents to Aidbase using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-aidbase/SKILL.md": "0ebfd6273be3bea15cff598ec6804f3f87359da2c79da0f4461682eae1f8aa80"
+  }
+}
